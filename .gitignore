@@ -1,0 +1,16 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Fichiers de sortie générés
+*_modified.csv
+*_modified.arff
+*_normalized_*.csv
+/tmp/
+
+# IDE
+.idea/
+.vscode/
