@@ -6,11 +6,11 @@ L'application offre une interface graphique intuitive permettant de réaliser un
 
 ## 📸 Captures d'écran
 
-![Interface Principale](screenshots/Clustering%20APP.png)
+![Interface Principale de l'Application](screenshots/app.png)
 _Interface principale de l'application offrant des outils de prétraitement et de clustering._
 
-![Courbe d'Elbow](screenshots/Courbe%20d'Elbow.png)
-_Exemple de la méthode du coude (Elbow) pour déterminer le nombre optimal de clusters pour K-Means._
+![Courbe d'Elbow pour K-Means](screenshots/elbow_curve.png)
+_Exemple de la méthode du coude (Elbow) pour déterminer le nombre optimal de clusters._
 
 ## ✨ Fonctionnalités
 
