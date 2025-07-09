@@ -49,5 +49,12 @@ The application implements and compares 5 major clustering algorithms:
     ```
 4.  In the Jupyter interface, navigate to the `notebook/` folder and open `Clustering_Analysis.ipynb`.
 5.  Execute the notebook cells. The last cell will launch the Tkinter graphical application.
+
+## 📌 Citation
+If you use this project, please cite it as:
+
+Ayoub Laib (2025), *Data Analysis and Clustering Application*, GitHub repository: https://github.com/aylaib/Data-Clustering-Toolkit
+
+
 ## 📚 Reference Documents
 - **[Complete Project Report](./Rapport_Projet_Clustering.pdf)** : Detailed analysis, methodology, results and conclusions.
