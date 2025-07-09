@@ -1,71 +1,53 @@
-# Application d'Analyse et de Clustering de Données
-
-Ce projet, développé en Python avec Jupyter et Tkinter, est une application complète pour l'exploration de données et l'application de divers algorithmes de clustering. Il a été réalisé dans le cadre du module de Fouille de Données (M1 Bio-Informatique, USTHB).
-
-L'application offre une interface graphique intuitive permettant de réaliser un pipeline complet de data mining, du prétraitement à l'évaluation des performances des clusters.
-
-## 📸 Captures d'écran
-
-![Interface Principale de l'Application](screenshots/app.png)
-_Interface principale de l'application offrant des outils de prétraitement et de clustering._
-
-![Courbe d'Elbow pour K-Means](screenshots/elbow_curve.png)
-_Exemple de la méthode du coude (Elbow) pour déterminer le nombre optimal de clusters._
-
-## ✨ Fonctionnalités
-
-### 1. Prétraitement et Analyse Exploratoire (EDA)
-- **Chargement de Données :** Ouverture de fichiers `.csv` et `.arff`.
-- **Exploration :** Affichage des valeurs distinctes, nombre d'instances, informations sur les attributs.
-- **Statistiques Descriptives :** Calcul du Min, Max, Moyenne, Médiane et Quartiles.
-- **Visualisation :** Génération de **Boxplots** et **Scatter plots** pour analyser les distributions et corrélations.
-- **Nettoyage :** Détection et remplacement des valeurs manquantes.
-- **Normalisation :** Mise à l'échelle des données via les méthodes **Min/Max** et **Z-score**.
-
-### 2. Algorithmes de Clustering
-L'application implémente et compare 5 algorithmes de clustering majeurs :
-- **K-Means :** Basé sur les centroïdes.
-- **K-Medoids :** Variante robuste utilisant des médoïdes.
-- **AGNES (Agglomerative Nesting) :** Clustering hiérarchique ascendant.
-- **DIANA (Divisive Analysis) :** Clustering hiérarchique descendant.
-- **DBSCAN (Density-Based) :** Clustering basé sur la densité, capable de trouver des formes arbitraires.
-
-### 3. Évaluation des Performances
-- **Méthode du Coude (Elbow) :** Pour déterminer le nombre optimal de clusters (k).
-- **Mesures d'Inertie :** Calcul de l'inertie intra-classe et inter-classe.
-- **Scores de Clustering :** Évaluation via le **Score de Silhouette**, l'**Indice de Calinski-Harabasz** et l'**Indice de Davies-Bouldin**.
-
-## 🛠️ Technologies et Bibliothèques
-
+# Data Analysis and Clustering Application
+This project, developed in Python with Jupyter and Tkinter, is a complete application for data exploration and the application of various clustering algorithms. It was carried out as part of the Data Mining module (M1 Bioinformatics, USTHB).
+The application offers an intuitive graphical interface allowing to carry out a complete data mining pipeline, from preprocessing to cluster performance evaluation.
+## 📸 Screenshots
+![Main Application Interface](screenshots/app.png)
+*Main application interface offering preprocessing and clustering tools.*
+![Elbow Curve for K-Means](screenshots/elbow_curve.png)
+*Example of the Elbow method to determine the optimal number of clusters.*
+## ✨ Features
+### 1. Preprocessing and Exploratory Data Analysis (EDA)
+- **Data Loading:** Opening `.csv` and `.arff` files.
+- **Exploration:** Display of distinct values, number of instances, attribute information.
+- **Descriptive Statistics:** Calculation of Min, Max, Mean, Median and Quartiles.
+- **Visualization:** Generation of **Boxplots** and **Scatter plots** to analyze distributions and correlations.
+- **Cleaning:** Detection and replacement of missing values.
+- **Normalization:** Data scaling via **Min/Max** and **Z-score** methods.
+### 2. Clustering Algorithms
+The application implements and compares 5 major clustering algorithms:
+- **K-Means:** Based on centroids.
+- **K-Medoids:** Robust variant using medoids.
+- **AGNES (Agglomerative Nesting):** Hierarchical agglomerative clustering.
+- **DIANA (Divisive Analysis):** Hierarchical divisive clustering.
+- **DBSCAN (Density-Based):** Density-based clustering, capable of finding arbitrary shapes.
+### 3. Performance Evaluation
+- **Elbow Method:** To determine the optimal number of clusters (k).
+- **Inertia Measures:** Calculation of within-cluster and between-cluster inertia.
+- **Clustering Scores:** Evaluation via **Silhouette Score**, **Calinski-Harabasz Index** and **Davies-Bouldin Index**.
+## 🛠️ Technologies and Libraries
 - **Python 3**
-- **Tkinter** pour l'interface graphique (GUI)
-- **Jupyter Notebook** pour l'environnement de développement
-- **Pandas** & **Numpy** pour la manipulation des données
-- **Scikit-learn** & **Scikit-learn-extra** pour les algorithmes de clustering et le prétraitement
-- **Matplotlib** & **Seaborn** pour la visualisation des données
-- **Kneed** pour l'analyse de la courbe d'Elbow
-
-## 🚀 Comment l'utiliser
-
-1.  **Clonez le dépôt :**
+- **Tkinter** for the graphical interface (GUI)
+- **Jupyter Notebook** for the development environment
+- **Pandas** & **Numpy** for data manipulation
+- **Scikit-learn** & **Scikit-learn-extra** for clustering algorithms and preprocessing
+- **Matplotlib** & **Seaborn** for data visualization
+- **Kneed** for Elbow curve analysis
+## 🚀 How to Use
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/VOTRE_NOM_UTILISATEUR/Data-Clustering-Toolkit.git
+    git clone https://github.com/YOUR_USERNAME/Data-Clustering-Toolkit.git
     cd Data-Clustering-Toolkit
     ```
-
-2.  **Installez les dépendances :**
+2.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-
-3.  **Lancez Jupyter Notebook :**
+3.  **Launch Jupyter Notebook:**
     ```bash
     jupyter notebook
     ```
-
-4.  Dans l'interface de Jupyter, naviguez dans le dossier `notebook/` et ouvrez `Clustering_Analysis.ipynb`.
-
-5.  Exécutez les cellules du notebook. La dernière cellule lancera l'application graphique Tkinter.
-
-## 📚 Documents de Référence
-- **[Rapport Complet du Projet](./Rapport_Projet_Clustering.pdf)** : Analyse détaillée, méthodologie, résultats et conclusions.
+4.  In the Jupyter interface, navigate to the `notebook/` folder and open `Clustering_Analysis.ipynb`.
+5.  Execute the notebook cells. The last cell will launch the Tkinter graphical application.
+## 📚 Reference Documents
+- **[Complete Project Report](./Rapport_Projet_Clustering.pdf)** : Detailed analysis, methodology, results and conclusions.
